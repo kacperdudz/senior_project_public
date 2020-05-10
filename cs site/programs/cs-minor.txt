@@ -1,0 +1,6 @@
+COMP 140 Computer Science I
+COMP 150 Computer Science II
+COMP 200 Microcomputer Systems
+COMP 335 Operating Systems
+COMP 400 Database Management
+COMP XXX Elective upper division courses in Computer Science

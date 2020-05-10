@@ -1,0 +1,7 @@
+COMP 135 Introduction to Information Technology
+COMP 141 Programming in Visual BASIC
+COMP 200 Microcomputer Systems
+COMP 205 Information Systems: Analysis and Design
+COMP 207 Network Fundamentals
+COMP 312 Server Installation and Configuration
+COMP XXX Computer Science Elective (300-400 level)

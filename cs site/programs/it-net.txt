@@ -1,0 +1,18 @@
+All students in this program are required to complete the AAS degree in Computer Information Systems – Network Specialist
+Option including 38 hours of USF-specified CIS course work from Joliet Junior College.
+
+Additional Required Courses
+ACCT 125 Financial Accounting
+COMP 141 Visual Basic
+COMP 201 Introduction to DBMS
+COMP 241 Web Programming Languages
+COMP 301 Database Administration
+COMP 350 Network Security
+COMP 401 Web Server Design/Administration
+COMP 412 Systems Administration
+COMP 480 Senior Project
+MGMT 150 Management & Organizational Behavior
+Elective
+MATH 121 Finite Mathematics
+MATH 170 Calculus for Business
+MATH 326 Discrete Mathematics

@@ -1,0 +1,95 @@
+/*css file for navbar and scrolling image above*/
+
+nav {
+  width: 100%;
+  background-color: #0084ff;
+  align-self: flex-start;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+/*navbar adapted from https://jsfiddle.net/9q7tbj54/*/
+
+/*navbar categories*/
+/* Home About Alumni Other */
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+/*navbar subcategories*/
+/* About/ Curriculum Careers Faculty */
+/* Other/ N133 Lab Computer Club*/
+nav ul li {
+  position: relative;
+}
+
+nav ul a {
+  color: #fcfcfc;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+}
+
+nav ul a:visited {
+  color: #fcfcfc;
+}
+
+.nav_not_links {
+  color: #fcfcfc;
+  padding: 15px;
+  display: block;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.nav_not_links:hover {
+  background-color: #0077e6;
+}
+
+nav ul a:hover {
+  cursor: pointer;
+  background-color: #0077e6;
+}
+nav ul .subnav {
+  visibility: hidden;
+  flex-direction: column;
+  background-color: #0084ff;
+  position: absolute;
+  left: 0;
+  top: 99%;
+}
+nav ul .has-subnav:hover .subnav, nav ul .has-subnav:focus .subnav, nav ul .has-subnav:focus-within .subnav, nav ul .subnav:hover {
+  visibility: visible;
+}
+
+/* scrolling slideshow, adapted from:https://css-tricks.com/infinite-all-css-scrolling-slideshow/  */
+.tech-slideshow {
+ height: 350px; /* edit when chaning picture */
+ margin: 0 auto;
+ position: relative;
+ overflow: hidden;
+}
+
+.tech-slideshow > div {
+ height: 350px;/* edit when changing picture */
+ width: 7710px;/* edit when changing picture */
+ background: url("../images/inf_slide2.jpg"); /* (maybe) edit when changing picture */
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+}
+.tech-slideshow .mover-1 {
+ animation: moveSlideshow 85s linear infinite; /* (maybe) edit when changing picture */
+}
+
+/* Moves image to the left */
+@keyframes moveSlideshow {
+ 100% {
+   transform: translateX(-66.6666666%);
+ }
+}

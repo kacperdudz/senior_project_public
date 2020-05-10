@@ -1,0 +1,53 @@
+/* positions the gallery container */
+.gallery {
+  position: relative;
+}
+
+/* hides images on load*/
+.slides {
+  display: none;
+  text-align: center;
+}
+
+/* next and previous button */
+.prev,
+.next {
+  cursor: pointer;
+  position: sticky;
+  /* left: 50%; */
+  top: 50%;
+  width: auto;
+  /* margin-top: -100px; */
+  padding: 0px 100px;
+  color: white;
+  margin: auto;
+  background-color: #2E3742;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  transition: 0.6s ease;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 200px; */
+}
+
+/* moves next button ♪to the right, ever to the right, never to the left...♪ */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* image text container */
+.caption {
+  text-align: center;
+  padding: 20px 16px;
+  color: white;
+  font-size: 40px;
+  font-style: italic;
+}

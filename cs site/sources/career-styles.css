@@ -1,0 +1,34 @@
+table {
+	table-layout: auto; /*so table is dyamically sized */
+	width: 100%; /*so table is dyamically sized */
+}
+
+td, th {
+  text-align: left;
+}
+
+/* different look for even and odd table rows */
+tr:nth-child(even) > td {
+  background-color: #2E3742;
+	text-align: left;
+	padding: 4em;
+}
+
+/* different look for even and odd table rows */
+tr:nth-child(odd) > td {
+	text-align: center;
+	padding: 4em 1em;
+}
+
+#intro_links > td {
+	padding: 4em;
+}
+
+#links > td {
+	font-style: italic;
+	padding: 1.5em;
+}
+
+#links a {
+	font-style: normal;
+}

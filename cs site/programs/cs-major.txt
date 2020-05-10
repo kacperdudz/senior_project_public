@@ -1,0 +1,17 @@
+COMP 135 Introduction to Information Technology
+COMP 140 Computer Science I
+COMP 150 Computer Science II
+COMP 200 Microcomputer Systems
+COMP 201 Introduction to DBMS
+COMP 253 Java with Data Structures
+COMP 254 Advanced Data Structures
+COMP 335 Operating Systems
+COMP 356 Theory of Programming Languages
+COMP 400 Database Management
+COMP 480 Senior Project
+COMP XXX Four upper level Elective courses in Computer Science
+MATH 175 Statistics
+MATH 181 Calculus with Analytic Geometry I
+MATH 182 Calculus with Analytic Geometry II
+MATH 326 Discrete Mathematics or
+MATH XXX (approved math elective)

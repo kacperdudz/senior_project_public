@@ -1,0 +1,33 @@
+/* This CSS file is intended only for  curriculum.php */
+
+/*Combo/dropdown box*/
+#programList { 
+	background-color: #339dff; /* blue */
+	color: white;
+	font-size: 16px;
+	border: none;
+	padding: 5px 20px;
+ }
+
+/*Button used to select program*/
+#select {
+	background-color: #339dff; /*blue*/
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+/*Centers degree program requirenments*/
+#programs {
+	text-align: center;
+
+}
+
+/*Left justifies degree porgram requirenemnts while the block is centered*/
+.degree {
+	text-align: left;
+	line-height: 1.5;
+	width: 600px;
+}

@@ -1,0 +1,13 @@
+table, th, td {
+  border: 1px solid gray;
+	padding: 1em;
+	text-align: center;
+}
+
+td.prof_pic {
+	text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #2E3742;
+}

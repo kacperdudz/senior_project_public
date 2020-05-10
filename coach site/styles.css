@@ -1,0 +1,241 @@
+body {
+ background: #FFF4C9;
+ /* font-family: Helvetica; */
+ font-family: 'Noto Sans', sans-serif;
+ font-size: 17px;
+ color: black;
+ margin: 1.5em;
+ margin-top: 0em;
+}
+header {
+ height: 400px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+h2 {
+  text-align: center;
+  background-color: #ffefbf;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top:0px;
+  margin-bottom:0px;
+
+  border-top: 73px solid transparent;
+  margin-top: -73px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+hr {
+  padding: 0px;
+  margin: 0.5px;
+}
+
+
+/*nav bar*/
+
+nav {
+ width: 100%;
+ padding: 6px;
+ background-color: #FAE197;
+ align-self: flex-start;
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ z-index: 2;
+}
+nav ul {
+ list-style: none;
+ display: flex;
+ margin: 0;
+ padding: 0;
+}
+nav ul li {
+ position: relative;
+}
+nav ul a {
+ font-size: 20px;
+ color: black;
+ padding: 15px;
+ display: block;
+ text-decoration: none;
+}
+nav ul a:hover {
+ background-color: #E8DCB7;
+}
+nav ul .subnav {
+ visibility: hidden;
+ flex-direction: column;
+ background-color: #0084ff;
+ position: absolute;
+ left: 0;
+ top: 99%;
+}
+nav ul .has-subnav:hover .subnav, nav ul .has-subnav:focus .subnav, nav ul .has-subnav:focus-within .subnav, nav ul .subnav:hover {
+ visibility: visible;
+}
+
+
+
+/* top section and awards section */
+
+#info_wrapper {
+	/* margin: 1.5em; */
+  margin-top: 3.5em;
+  margin-right: 2em;
+  margin-bottom: .5em;
+	float: left;
+	/* display: inline; */
+	/* background-color: black; */
+	text-align: center;
+  font-weight: bold;
+	border-style: solid;
+	border-color: black;
+}
+
+#awards-list {
+	color: #663428;
+	list-style-position: inside;
+	font-weight: bold;
+}
+
+
+ /* inf scrolling banner/slideshow */
+
+.tech-slideshow {
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.tech-slideshow > div {
+  height: 300px;
+  width: 9000px;
+  background: url("images/banner_template.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 10s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666666%);
+  }
+}
+
+/* gallery slideshow */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides > img, video {
+  width: 60%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -22px;
+  padding: 20px;
+  color: black;
+	background-color: #ffefbf;
+  font-size: 60px;
+  transition: 0.6s ease;
+  border-radius: 40px;
+  user-select: none;
+  border-style: solid;
+  border-width: thin;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 20px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  margin-bottom: 1em;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* footer */
+
+#contact {
+  padding-left: .5em;
+  text-align: left;
+}
+#contact > p {
+  padding-left: 0px;
+  line-height: 65%;
+}

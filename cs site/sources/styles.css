@@ -1,0 +1,65 @@
+/*general page body stlyes*/
+body {
+	 background: #20262e;
+	 /* font-family: Helvetica; */
+	 color: #fcfcfc;
+	 font-size: 20px;
+	 font-family: 'Lato', sans-serif;
+}
+
+/*Used for page titles*/
+h1 {
+	text-align: center;
+}
+
+/*Used for program names on curriculum page*/
+/* CS Major, IT Major, etc. */
+/* Can be used elsewhere */
+h2 {
+	text-align: center;
+}
+
+/* Fixes link color on darker background */
+a:visited {color: gray;}
+a {color: #339dff;}
+
+/*Main message and highlights of each page*/
+#welcome, #highlights {
+	padding: 50px;
+	padding-top: 10px;
+}
+
+/* minor font stuff*/
+.mono{
+	font-family: 'VT323', monospace;
+	font-size: 70px;
+	color: #35c700;
+	/* font-style:italic; */
+}
+
+/* footer */
+/* Currently not used */
+
+footer {
+	padding: 1em;
+	background-color: black;
+}
+
+footer > div {
+	display:inline-block;
+	width:33%;
+	margin: 0 auto;
+	background-color:white;
+}
+
+footer > div#links {
+	color: blue;
+}
+
+footer > div#contact_info {
+	color: blue;
+}
+
+footer > div#other_stuff {
+	color: blue;
+}

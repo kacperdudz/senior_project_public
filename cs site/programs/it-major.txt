@@ -1,0 +1,23 @@
+ACCT 125 Financial Accounting
+ECON 101 Principles of Macroeconomics
+OR
+ECON 102 Principles of Microeconomics
+COMP 135 Intro to Information Technology
+COMP 200 Microcomputer Systems
+COMP 201 Intro to DBMS Application
+COMP 205 Information Systems: Analysis & Design
+COMP 207 Network Fundamentals
+COMP 253 Java with Data Structures
+COMP 335 Operating Systems
+COMP 350 Network Security
+COMP 480 Senior Project
+MGMT 150 Management & Organizational Behavior
+MATH 170 Applied Calculus
+MATH 175 Statistics
+
+Information Technology Concentration (18 semester hours)
+COMP 241 Web Programming Languages
+COMP 301 Database Administration
+COMP 312 Server Installation & Configuration
+COMP 430 eBusiness
+COMP XXX Two Information Technology Electives

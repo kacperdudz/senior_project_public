@@ -1,0 +1,24 @@
+MATH 175 Statistics
+MATH 181 Calculus with Analytic Geometry I
+MATH 182 Calculus with Analytic Geometry II
+MATH 271 Calculus III
+MATH 275 Linear Algebra
+MATH 280 Differential Equations
+MATH 326 Discrete Mathematics
+MATH 365 Operations Research
+MATH 380 Numerical Analysis
+COMP 135 Introduction to Information Technology
+COMP 140 Computer Science I
+COMP 150 Computer Science II
+COMP 200 Microcomputer Systems
+COMP 253 Java
+COMP 254 Advanced Data Structures
+COMP 335 Operating Systems
+COMP 356 Theory of Programming
+COMP 400 Database Management
+Two additional 300-400 level MATH or COMP courses
+Capstone Course
+	MATH 391 Junior Seminar 1
+	MATH 490 Senior Seminar 2
+ 		OR
+	COMP 480 Senior Project

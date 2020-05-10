@@ -1,0 +1,19 @@
+ARTD 101 Design
+CMMA 122 Digital Photography
+CMMA 222 Digital Photography Editing
+CMMA 251 Introduction to Graphic Communication
+CMMA 318 Web Page Design
+CMMA 325 2D Animation
+CMMA 335 Web Publishing and Platforms
+COMP/CMMA Electives in Computer Science or Comm & Media Arts (300-400 level)
+COMP 135 Introduction to Information Technology
+COMP 200 Microcomputer Systems
+COMP 201 Introduction to DBMS
+COMP 205 Information Systems Analysis and Design
+COMP 207 Network Fundamentals
+COMP 241 Web Programming Languages
+COMP 253 Java with Data Structures
+COMP 312 Server Installation and Configuration
+COMP 430 eBusiness
+COMP 480 Senior Project
+MATH 170 Applied Business Statistics
